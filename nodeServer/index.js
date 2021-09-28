@@ -2,7 +2,8 @@
 var express = require("express");
 var app=express();
 
-const io = require('socket.io')(5500, {
+const PORT =process.env.PORT || 5500
+const io = require('socket.io')(PORT, {
     cors: {
       origin: '*',
     }
