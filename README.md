@@ -1,2 +1,2 @@
-﻿# heroku_web_hosting
+﻿# iChatApp
  hosted iChat App on heroku
